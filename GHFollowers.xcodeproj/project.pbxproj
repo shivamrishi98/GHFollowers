@@ -13,6 +13,8 @@
 		96349E502C23ED5F0097529D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 96349E4F2C23ED5F0097529D /* Base */; };
 		96349E582C23F2FB0097529D /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96349E572C23F2FB0097529D /* SearchVC.swift */; };
 		96349E5A2C23F3250097529D /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96349E592C23F3250097529D /* FavoritesListVC.swift */; };
+		96349E5C2C2451400097529D /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96349E5B2C2451400097529D /* GFButton.swift */; };
+		96349E5E2C2453930097529D /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96349E5D2C2453930097529D /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		96349E512C23ED5F0097529D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96349E572C23F2FB0097529D /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		96349E592C23F3250097529D /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		96349E5B2C2451400097529D /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		96349E5D2C2453930097529D /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				96349E4C2C23ED5F0097529D /* Assets.xcassets */,
 				96349E4E2C23ED5F0097529D /* LaunchScreen.storyboard */,
 				96349E512C23ED5F0097529D /* Info.plist */,
+				96349E5B2C2451400097529D /* GFButton.swift */,
+				96349E5D2C2453930097529D /* GFTextField.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96349E5E2C2453930097529D /* GFTextField.swift in Sources */,
 				96349E582C23F2FB0097529D /* SearchVC.swift in Sources */,
+				96349E5C2C2451400097529D /* GFButton.swift in Sources */,
 				96349E442C23ED5E0097529D /* AppDelegate.swift in Sources */,
 				96349E5A2C23F3250097529D /* FavoritesListVC.swift in Sources */,
 				96349E462C23ED5E0097529D /* SceneDelegate.swift in Sources */,
